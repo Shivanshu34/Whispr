@@ -1,0 +1,7 @@
+.Home{
+    height: calc(var(--vh,1vh)*100);
+    width: calc(var(--vw,1vw)*100);
+    background: url("/background-1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}

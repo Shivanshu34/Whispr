@@ -1,0 +1,77 @@
+/* Styling for SignUp.jsx */
+.SignUp {
+    height: calc(var(--vh, 1vh) * 100);
+    width: calc(var(--vw, 1vw) * 100);
+    background: url("/background-3.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUpPage {
+    height: calc(var(--vh, 1vh) * 75);
+    width: calc(var(--vw, 1vw) * 35);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px solid black;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+.SignInPage{
+    height: calc(var(--vh, 1vh) * 65);
+    width: calc(var(--vw, 1vw) * 30);
+}
+
+.DetailsPage{
+    height: calc(var(--vh, 1vh) * 85);
+    width: calc(var(--vw, 1vw) * 35);
+}
+
+.ProfilePage{
+    height: calc(var(--vh, 1vh) * 100);
+    width: calc(var(--vw, 1vw) * 35);
+    flex-wrap: wrap;
+}
+
+.SignUpDiv {
+    display: flex;
+    flex-wrap: wrap;
+    direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.SignUpWrap {
+    display: flex;
+    direction: column;
+    flex-wrap: nowrap;
+}
+
+.SignUpWrap > div{
+    display: flex;
+    align-items: center;
+}
+
+.SignUpPara {
+    color: grey;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.SignUpHeading {
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.ProfileHeading{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #2C2C54;
+}
